@@ -1,0 +1,22 @@
+.AdminPanel {    
+    text-align: center;    
+  }    
+  .navheader{    
+    margin-top: 5px; 
+    
+    
+    
+    color :rgb(0, 0, 0) !important;    
+    background-color: #680707!important    
+  } 
+
+
+  .imgcard
+  {
+      min-width: 63px;
+      min-height: 58px;
+      max-height: 60px;
+      max-width: 65px;
+      display: block;
+      object-fit: cover;    
+  }
