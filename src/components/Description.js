@@ -6,7 +6,7 @@ import axios from 'axios';
 import {Card, Input} from "reactstrap";
 import {Button} from "react-bootstrap";
 
-import mango from './../fruit/mango.jpg'
+import mango from './../img/dairy.jpg'
 
 const apiUrl = 'https://govimithuroapi.azurewebsites.net/api/Cart/';
 
@@ -15,9 +15,9 @@ class Description extends React.Component{
 
     constructor(props){
         super(props);
-        this.state = this.getInitialSate();
+        this.state = this.getInitialSate(); 
     }
-    getInitialSate =() =>({
+    getInitialSate =() =>({ 
         data:{
             // grab the product which coming from Search result component
             "productName"  : this.props.location.state.productName,

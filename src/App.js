@@ -15,10 +15,7 @@ import Feedback from './components/Feedback'
 import Footer from './components/Footer'
 
 
-import Vegetable from './components/Vegetable'
-import Fruit from "./components/Fruit";
-import Dairy from "./components/Dairy";
-import Grain from "./components/Grains";
+
 
 
 
@@ -145,15 +142,12 @@ class App extends Component {
           <Route path='/Admin/GetOrderDetails' component={GetOrderDetails} /> 
           <Route path='/Admin/GetCategories' component={GetCategories} />
           <Route path='/Admin/EditCategory' component={EditCategory}/>
-          {/*<Route path='/Admin/GetClientQuery' component={GetClientQuery}/>*/}
+          <Route path='/Admin/GetClientQuery' component={GetClientQuery}/>
 
           <Route path='/NotLoggedIn' component={NotLoggedIn}/>
           <Route path='/Login' component={Login} />  
           <Route path='/Cart' component={Cart} />
-          <Route path='/Vegetable' component={Vegetable}/>
-          <Route path='/Fruit' component={Fruit}/>
-          <Route path='/Dairy' component={Dairy}/>
-          <Route path='/Grain' component={Grain}/>
+
           <Route path='/LoginForm' component={LoginForm}/>
           
           <Route path='/SearchResult' component={SearchResult} />
