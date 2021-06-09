@@ -195,10 +195,11 @@ export default function MyCart() {
            </div>
            <div><p></p></div>
            <div className="searchcard col-md-4 "  >               
-               <h6>Courier Service : Rs.300</h6>
+               <h6>Courier Service : Rs.100</h6>
            </div>
            </div>      
             </div>
+            <h5  >(It will charged Rs.100 from customers Within 10km ranges.For additinal distace, Rs.25 per 1km will be charged by Courier Service.)</h5>
                
         </div>
      

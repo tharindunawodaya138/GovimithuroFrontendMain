@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios'
 import { Form, Label,Input,FormGroup, FormFeedback, Button } from 'reactstrap';
 
-var courier = 300;
+var courier = 100;
 class Checkout extends Component  {
   
 

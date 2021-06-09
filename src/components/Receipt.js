@@ -136,8 +136,8 @@ class Receipt extends React.Component{
                                                     <span className="itemtext"></span>
                                                 </td>
                                                 <td className="tableitem">
-                                                    <span className="itemtext">300</span>
-                                                    <span hidden>{total=total+300}</span>
+                                                    <span className="itemtext">100</span>
+                                                    <span hidden>{total=total+100}</span>
                                                 </td>
                                             </tr>
 

@@ -59,7 +59,7 @@ class SearchResult extends React.Component{
 
        // posting cart
         axios.post(
-            'https://localhost:44374/api/Cart',
+            'https://govimithuroapi.azurewebsites.net/api/Cart',
             {numOfProducts: parseInt(this.state.numOfProducts),totalPrice : parseInt(this.state.numOfProducts )* Product.unitPrice}
             )
             .then(response=> {

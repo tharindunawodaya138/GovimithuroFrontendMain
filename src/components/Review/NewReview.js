@@ -57,7 +57,7 @@ class NewReview extends Component{
         if (Object.keys(errors).length === 0) {
             console.log(data);
             //Call an api here
-            axios.post('https://localhost:44374/api/Reviews', {farmerEmail:data.farmerEmail,customerName:data.customerName,reviews:data.reviews,product:data.product,rank:data.rank,date:data.date})
+            axios.post('https://govimithuroapi.azurewebsites.net/api/Reviews', {farmerEmail:data.farmerEmail,customerName:data.customerName,reviews:data.reviews,product:data.product,rank:data.rank,date:data.date})
                 //Resetting the form
                 .then(response => {
                     if(response.status === 201) {

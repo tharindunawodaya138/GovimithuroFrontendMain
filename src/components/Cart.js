@@ -37,7 +37,7 @@ class GetCarts extends React.Component{
     }
 
     deleteRow(productID, e){
-        axios.delete(`https://localhost:44374/api/Cart/${productID}`)
+        axios.delete(`https://govimithuroapi.azurewebsites.net/api/Cart/${productID}`)
             .then(res => {
                 console.log(res);
                 console.log(res.data);

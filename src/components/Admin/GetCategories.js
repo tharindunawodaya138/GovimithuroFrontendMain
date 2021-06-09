@@ -32,7 +32,7 @@ class GetCategories extends React.Component{
 
 
     deleteRow(productID, e){
-        axios.delete(`https://localhost:44374/api/Categories/${productID}`)
+        axios.delete(`https://govimithuroapi.azurewebsites.net/api/Categories/${productID}`)
             .then(res => {
                 alert("You have deleted successfully")
                 console.log(res);
